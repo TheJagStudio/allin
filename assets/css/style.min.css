@@ -1138,8 +1138,8 @@ input[type=submit] {
 	left: 0;
 	width: 100%;
 	z-index: 999;
-	-webkit-animation: sticky 1s;
-	animation: sticky 1s;
+	-webkit-animation: sticky 100000000000000000000s;
+	animation: sticky 100000000000000000000000s;
 	-webkit-box-shadow: 2px 4px 8px rgba(51, 51, 51, .25);
 	box-shadow: 2px 4px 8px rgba(51, 51, 51, .25)
 }
@@ -1150,8 +1150,8 @@ input[type=submit] {
 		transform: translateY(-100%)
 	}
 	100% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0)
+		-webkit-transform: translateY(20000%);
+		transform: translateY(20000%)
 	}
 }
 
@@ -1161,8 +1161,8 @@ input[type=submit] {
 		transform: translateY(-100%)
 	}
 	100% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0)
+		-webkit-transform: translateY(20000%);
+		transform: translateY(20000%)
 	}
 }
 
